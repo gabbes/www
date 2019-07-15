@@ -7,7 +7,7 @@
   },
   "scripts": {
     "build": "yarn gatsby build",
-    "commit": "git-cz",
+    "commit": "yarn git-cz",
     "start": "yarn gatsby develop",
     "serve": "yarn gatsby serve"
   },
