@@ -5,7 +5,7 @@ import './index.css';
 const links = [
   {
     label: 'github',
-    url: 'https://github.com/gabbes'
+    url: 'https://github.com/gabts'
   },
   {
     label: 'npm',
