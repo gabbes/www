@@ -29,13 +29,13 @@ const links = [
   }
 ];
 
-export default () => (
+const IndexPage: React.FC = () => (
   <div className="container">
     <main className="main">
       <h1 className="title">Gabriel Toll Stålbom</h1>
       <ul className="list">
-        {links.map(({ url, label }) => (
-          <li>
+        {links.map(({ url, label }, index) => (
+          <li key={index}>
             <a className="link" href={url}>
               {label}
             </a>
@@ -45,3 +45,5 @@ export default () => (
     </main>
   </div>
 );
+
+export default IndexPage;
