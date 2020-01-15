@@ -33,6 +33,9 @@ const IndexPage: React.FC = () => (
   <div className="container">
     <main className="main">
       <h1 className="title">Gabriel Toll Stålbom</h1>
+      <p className="description">
+        JavaScript/TypeScript, Node webb- & apputvecklare
+      </p>
       <ul className="list">
         {links.map(({ url, label }, index) => (
           <li key={index}>
